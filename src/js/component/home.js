@@ -8,11 +8,12 @@ export function Home() {
 	return (
 		<div className="container">
 			<div className="navbar">
-				<div className="logo"> </div>
+				<div className="logo">SHOPSHOP</div>
 				<ul className="menu">
-					<li className="img" />
-					<li className="img" />
-					<li className="img" />
+					<li>Product</li>
+					<li>About</li>
+					<li>My Account</li>
+					<li>Cart</li>
 				</ul>
 			</div>
 			<div className="breadcrumbs" />
@@ -20,7 +21,11 @@ export function Home() {
 				<div className="gallery">
 					<div className="main-img" />
 					<ul>
-						<li className="img" />
+						<img
+							className="img"
+							src="https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+						/>
+
 						<li className="img" />
 						<li className="img" />
 					</ul>
