@@ -1,11 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
 /* resets */
+ul li {
+    list-style: none;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
 
 /* behaviours */
+ul li {
+    margin-left: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 .img {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: blue;
+    min-height: 10px;
+    min-width: 10px;
+}
+.layout {
+    display: flex;
+    justify-content: flex-end;
+}
+.layout.horizontal {
+    flex-direction: row;
 }
 
 /* specific */
+.navbar {
+    background: red;
+    border-bottom: 1px #bdbdbd solid;
+}
+.logo {
+    background: green;
+    flex-grow: 1;
+}
+.menu {
+    background: purple;
+    flex-grow: 2;
+}

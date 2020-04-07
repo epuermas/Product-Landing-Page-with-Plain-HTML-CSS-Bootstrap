@@ -7,33 +7,24 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home() {
 	return (
 		<div className="container">
-			<div className="navbar">
-				<div className="logo">SHOPSHOP</div>
-				<ul className="menu">
+			<div className="navbar layout horizontal">
+				<div className="logo p-1">SHOPSHOP</div>
+				<ul className="menu layout horizontal p-1">
 					<li>Product</li>
 					<li>About</li>
 					<li>My Account</li>
 					<li>Cart</li>
 				</ul>
 			</div>
-			<div className="breadcrumbs" />
+			<div className="breadcrumbs p-1" />
 			<div className="product-content">
 				<div className="gallery">
 					<div className="main-img" />
 					<ul>
-						<img
-							className="img"
-							src="https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
-						/>
+						<li className="img" />
 
-						<li
-							className="img"
-							src="https://images.unsplash.com/photo-1470364693235-a4fe27c60914?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-						/>
-						<li
-							className="img"
-							src="https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
-						/>
+						<li className="img" />
+						<li className="img" />
 					</ul>
 				</div>
 				<div className="product-info">
