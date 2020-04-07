@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
 /* resets */
+body {
+    font-family: monospace;
+}
 ul li {
     list-style: none;
 }
@@ -9,9 +12,6 @@ ul {
 }
 
 /* behaviours */
-// ul li {
-//     margin-left: 10px;
-// }
 .p-1{
     padding: 10px;
 }
@@ -19,10 +19,16 @@ ul {
     max-width: 900px;
     margin: auto;
 }
+button {
+    background: black;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
 .img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
     min-height: 10px;
     min-width: 10px;
 }
@@ -36,23 +42,50 @@ ul {
 .layout.horizontal {
     flex-direction: row;
 }
+.layout.horizontal .img{
+    flex-grow: 1;
+    margin-top: 10px;
+}
+.layout.horizontal .img:first-child{
+    margin-left: 0px;
+}
 .layout.layout-left {
     justify-content: flex-start;
 }
 .layout.layout-left li {
    margin-right: 10px;
 }
-
+.w-50 {
+    width: 50%;
+}
+a {
+    color: black;
+}
+a:visited {color: black;}
 /* specific */
 .navbar {
-    background: red;
     border-bottom: 1px #bdbdbd solid;
 }
 .logo {
-    background: green;
     flex-grow: 1;
 }
 .menu {
-    background: purple;
     flex-grow: 2;
+}
+.main-img {
+    height: 300px
+!important;} 
+
+.gallery .img {
+    height: 120px;
+}
+.breadcrumbs {
+    text-transform: uppercase;
+}
+.price {
+    font-size: 25px;
+}
+.description {
+    border-top: 1px #bdbdbd solid;
+    margin-top: 20px;
 }

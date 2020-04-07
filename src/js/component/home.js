@@ -19,22 +19,24 @@ export function Home() {
 			<div className="breadcrumbs p-1">
 				<ul className="menu layout horizontal layout-left">
 					<li>Home</li>
+					<li>/</li>
 					<li>Household Plants</li>
+					<li>/</li>
 					<li>Bonsai</li>
 				</ul>
 			</div>
-			<div className="product-content">
-				<div className="gallery">
-					<div className="main-img" />
+			<div className="product-content layout horizontal">
+				<div className="gallery w-50 p-1">
+					<div className="main-img img" />
 					<ul className="layout horizontal">
 						<li className="img" />
 						<li className="img" />
 						<li className="img" />
 					</ul>
 				</div>
-				<div className="product-info">
+				<div className="product-info w-50 p-1">
 					<h1>Bonsai</h1>
-					<span>$19.99</span>
+					<span className="price">$19.99</span>
 					<div className="description">
 						<p>
 							{
@@ -47,6 +49,7 @@ export function Home() {
 							}
 						</p>
 					</div>
+					<button>Add to cart</button>
 				</div>
 			</div>
 		</div>
