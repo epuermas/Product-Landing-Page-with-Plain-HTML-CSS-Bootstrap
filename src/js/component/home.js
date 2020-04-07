@@ -13,7 +13,7 @@ export function Home() {
 					<li>Product</li>
 					<li>About</li>
 					<li>My Account</li>
-					<li>Cart</li>
+					<li>Cart (0)</li>
 				</ul>
 			</div>
 			<div className="breadcrumbs p-1">
@@ -46,12 +46,12 @@ export function Home() {
 								src="https://images-na.ssl-images-amazon.com/images/I/712p6bNYuVL._AC_SL1500_.jpg"
 							/>
 						</li>
-						{/* <li className="img">
+						<li className="img">
 							<img
 								className="img"
 								src="https://images-na.ssl-images-amazon.com/images/I/712p6bNYuVL._AC_SL1500_.jpg"
 							/>
-						</li> */}
+						</li>
 					</ul>
 				</div>
 				<div className="product-info w-50 p-1">
