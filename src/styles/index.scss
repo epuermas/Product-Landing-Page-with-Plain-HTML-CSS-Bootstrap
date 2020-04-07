@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss";
 /* resets */
 body {
-    font-family: monospace;
+    font-family: serif;
 }
 ul li {
     list-style: none;
@@ -46,9 +46,9 @@ button {
     flex-grow: 1;
     margin-top: 10px;
 }
-.layout.horizontal .img:first-child{
-    margin-left: 0px;
-}
+// .layout.horizontal .img:first-child{
+//     margin-left: 0px;
+// }
 .layout.layout-left {
     justify-content: flex-start;
 }

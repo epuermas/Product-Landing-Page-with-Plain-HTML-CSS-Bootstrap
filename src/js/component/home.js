@@ -27,11 +27,31 @@ export function Home() {
 			</div>
 			<div className="product-content layout horizontal">
 				<div className="gallery w-50 p-1">
-					<div className="main-img img" />
+					<div className="main-img img">
+						<img
+							className="main-img img"
+							src="https://images-na.ssl-images-amazon.com/images/I/81Rx03JgEDL._AC_SL1500_.jpg"
+						/>
+					</div>
 					<ul className="layout horizontal">
-						<li className="img" />
-						<li className="img" />
-						<li className="img" />
+						<li className="img">
+							<img
+								className="img"
+								src="https://images-na.ssl-images-amazon.com/images/I/71p1rqxwWeL._AC_SL1500_.jpg"
+							/>
+						</li>
+						<li className="img">
+							<img
+								className="img"
+								src="https://images-na.ssl-images-amazon.com/images/I/712p6bNYuVL._AC_SL1500_.jpg"
+							/>
+						</li>
+						{/* <li className="img">
+							<img
+								className="img"
+								src="https://images-na.ssl-images-amazon.com/images/I/712p6bNYuVL._AC_SL1500_.jpg"
+							/>
+						</li> */}
 					</ul>
 				</div>
 				<div className="product-info w-50 p-1">
