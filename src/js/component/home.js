@@ -16,13 +16,18 @@ export function Home() {
 					<li>Cart</li>
 				</ul>
 			</div>
-			<div className="breadcrumbs p-1" />
+			<div className="breadcrumbs p-1">
+				<ul className="menu layout horizontal layout-left">
+					<li>Home</li>
+					<li>Household Plants</li>
+					<li>Bonsai</li>
+				</ul>
+			</div>
 			<div className="product-content">
 				<div className="gallery">
 					<div className="main-img" />
-					<ul>
+					<ul className="layout horizontal">
 						<li className="img" />
-
 						<li className="img" />
 						<li className="img" />
 					</ul>
