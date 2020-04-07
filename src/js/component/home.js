@@ -28,9 +28,12 @@ export function Home() {
 
 						<li
 							className="img"
+							src="https://images.unsplash.com/photo-1470364693235-a4fe27c60914?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+						/>
+						<li
+							className="img"
 							src="https://images.unsplash.com/photo-1526397751294-331021109fbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
 						/>
-						<li className="img" />
 					</ul>
 				</div>
 				<div className="product-info">
